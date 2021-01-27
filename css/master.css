@@ -1,14 +1,19 @@
+/* AZZERAMENTO BODY */
+
 body {
   margin: 0;
   padding: 0;
 }
 
+/* HEADER */
+
+/* container head */
 .head-blue {
   background-color: #0c325a;
   position: relative;
   height: 85vh;
 }
-
+/* foto background */
 .background-header {
   width: 70%;
   color: #ffffff;
@@ -16,16 +21,16 @@ body {
   bottom: 0;
   right: 0;
 }
-
+/* padding per tutti i prossimi container */
 [class^=container-] {
   padding: 0 10vw;
 }
-
+/* proprietà float a ogni colonna */
 [class^=col-] {
   float: left;
   display: inline-block;
 }
-
+/* clearing */
 .row:after {
   content: "";
   clear: both;
@@ -47,12 +52,12 @@ body {
 .logo {
   padding: 10px 0;
 }
-
+/* float a tutte le UL nella navbar con class apposita*/
 .nav-list li {
   list-style: none;
   float: left;
 }
-
+/* stile link navbar */
 .nav-list li a {
   color: #ffffff;
   text-decoration: none;
@@ -60,7 +65,7 @@ body {
   display: inline-block;
   padding: 10px 20px;
 }
-
+/* stile button navbar */
 .nav-list li button {
   color: #ffffff;
   text-transform: uppercase;
@@ -98,4 +103,56 @@ body {
   font-size: 18px;
   border-radius: 10px;
   text-transform: uppercase;
+}
+/* container grigio */
+.head-gray {
+  height: 15vh;
+  text-align: center;
+  background-color: #d3d3d3;
+  position: relative;
+}
+
+.central-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.central-text-title {
+  margin: 0;
+  padding: 0px 0 10px 0;
+  font-size: 32px;
+}
+
+.central-text-subtitle {
+  margin: 0;
+  color: #808080;
+  font-size: 26px;
+}
+
+/* FINE HEAD-INIZIO MAIN */
+
+.col-33 {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.col-33 img {
+  height: 20vh;
+  margin: 0;  
+  padding-top: 40px;
+}
+
+.col-33 h1 {
+  font-size: 30px;
+  color: #7cbb02;
+}
+
+.col-33 hr {
+  width: 20%;
+}
+
+.col-33 p {
+  color: #808080;
 }

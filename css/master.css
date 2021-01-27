@@ -1,12 +1,24 @@
 body {
   margin: 0;
-  padding: 0 10vh;
+  padding: 0;
 }
 
-.container-head {
+.head-blue {
   background-color: #0c325a;
-  background-image: url('../img/background-header.png');
+  position: relative;
+  height: 85vh;
+}
+
+.background-header {
+  width: 70%;
   color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+[class^=container-] {
+  padding: 0 10vw;
 }
 
 [class^=col-] {
@@ -20,14 +32,70 @@ body {
   display: table;
 }
 
-.col-60 {
-  width: 60%;
+.col-10 {
+  width: 10%;
+}
+
+.col-35 {
+  width: 35%;
+}
+
+.col-55 {
+  width: 55%;
+}
+
+.logo {
+  padding: 10px 0;
+}
+
+.nav-list li {
+  list-style: none;
+  float: left;
+}
+
+.nav-list li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.nav-list li button {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+.bg-blue {
+  background-color: #0c325a;
+  border: solid 1px #ffffff;
+  padding: 10px 30px;
+}
+
+.bg-green {
+  background-color: #7cbb02;
+  border-style: none;
+  padding: 10px;
+
 }
 
 .col-40 {
-  width: 40%;
+  width: 55%;
 }
 
-.nav-list {
-  list-style: none;
+.jumbo-text {
+  color: #ffffff;
+  font-size: 52px;
+  padding-top: 160px;
+}
+
+.jumbo-link {
+  background-color: #7cbb02;
+  padding: 30px 20px;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+  text-transform: uppercase;
 }

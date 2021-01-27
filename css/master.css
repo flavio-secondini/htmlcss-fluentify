@@ -2,3 +2,32 @@ body {
   margin: 0;
   padding: 0 10vh;
 }
+
+.container-head {
+  background-color: #0c325a;
+  background-image: url('../img/background-header.png');
+  color: #ffffff;
+}
+
+[class^=col-] {
+  float: left;
+  display: inline-block;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.nav-list {
+  list-style: none;
+}

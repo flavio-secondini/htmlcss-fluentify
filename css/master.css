@@ -196,24 +196,47 @@ body {
   position: relative;
 }
 
+.row-footer {
+  height: 100%
+}
+
 .col-60-footer {
   width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.col-60-footer-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .col-60-footer h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 46px;
 }
 
 .col-40-footer {
   width: 40%;
   color: #808080;
+  height: 100%;
+  position: relative;
+}
+
+.col-40-footer-container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
 }
 
 .selector-footer {
   display: inline-block;
-  width: 40%;
-  margin: 0 0 0 10px;
+  width: 20%;
+  margin: 0 40px;
   border-bottom: solid thin;
 }
 

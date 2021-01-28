@@ -133,6 +133,7 @@ body {
 
 /* FINE HEAD-INIZIO MAIN */
 
+/* prima sezione main */
 .col-33 {
   width: calc(100% / 3);
   text-align: center;
@@ -154,5 +155,57 @@ body {
 }
 
 .col-33 p {
+  color: #808080;
+}
+
+/* divisorio grigio delle due sezioni main */
+
+.separation-gray {
+  color: #d3d3d3;
+}
+
+/* seconda sezione main */
+
+.col-50-main {
+  width: 50%;
+  padding-top: 40px;
+}
+
+.col-50-main img {
+  height: 70vh;
+}
+
+.col-50-main-container {
+  padding: 0 80px;
+}
+
+.col-50-main-container h1 {
+  font-size: 46px;
+}
+
+.col-50-main-container  p {
+  color: #808080;
+  padding: 10px 0;
+}
+
+/*  FINE MAIN-INIZIO FOOTER */
+
+.container-footer {
+  background-color: #d3d3d3;
+  height: 15vh;
+  position: relative;
+}
+
+.col-60-footer {
+  width: 60%;
+}
+
+.col-60-footer h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.col-40-footer {
+  width: 40%;
   color: #808080;
 }

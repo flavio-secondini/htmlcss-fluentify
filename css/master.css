@@ -209,3 +209,36 @@ body {
   width: 40%;
   color: #808080;
 }
+
+.selector-footer {
+  display: inline-block;
+  width: 40%;
+  margin: 0 0 0 10px;
+  border-bottom: solid thin;
+}
+
+.button-footer {
+  background-color: #7cbb02;
+  color: #ffffff;
+  border-style: none;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.arrow-icon {
+  border-bottom: solid thin;
+}
+/* BOTTONE HELP FIXED */
+
+.help-fixed-footer {
+  background-color: #7cbb02;
+  color: #ffffff;
+  border-style: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 20%;
+}

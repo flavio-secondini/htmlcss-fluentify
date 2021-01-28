@@ -233,10 +233,13 @@ body {
   transform: translate(0, -50%);
 }
 
-.selector-footer {
+.dropdown-footer {
   display: inline-block;
   width: 20%;
   margin: 0 40px;
+  color: #808080;
+  background-color: #d3d3d3;
+  border-style: none;
   border-bottom: solid thin;
 }
 
